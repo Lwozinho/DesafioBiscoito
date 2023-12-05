@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+  display: grid;
+  place-items: center;
+  padding: 23.9rem 54.2rem 31.9rem 54.2rem;
+  height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+
+  main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #FFF;
+  padding: 4.8rem 6.4rem 6.4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 2.0rem 5.0rem 0rem rgba(0, 0, 0, 0.80);
+  width: 42.8rem;
+  margin-top: -12rem;
+}
+
+h1,  p {
+  text-align: center;
+}
+
+
+h1 { 
+  color: #34355B;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;  
+
+}
+
+p {
+  color: #34355B;
+  font-size: 1.5rem;
+}
+
+img {
+  
+  width: 24.8rem;
+  height: 19.1rem;
+}
+
+
+#cookieOpen {
+  width: 30.0rem;
+  height: 20.0rem;
+  padding: 4.3rem;
+} 
+
+button {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.6rem;
+  gap: 1.0rem;
+  cursor: pointer;
+
+  border-radius: 0.4rem;
+  background: #FF9500;
+
+  color: #FFF;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.0rem;
+  width: 17.4rem;
+  margin: auto;
+}
+
+button::hover {
+  background: #ff8c00;
+}
+
+.biscoito-fechado p{ 
+color: #34355b;
+font-size: 1.5rem;
+font-weight: 400;
+}
+
+.biscoito-aberto p {
+  color: #000;
+  font-size: 2.4rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+#message {
+    background: #dff5ff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    animation-name: zoom-in;
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
